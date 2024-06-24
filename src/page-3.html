@@ -1,17 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 3</title>
-  </head>
-  <body>
-    <section>
-      <a href="./index.html">Go to home</a>
-      <h1>Welcome to page 3</h1>
-      <h2>Chapter 1</h2>
-      <p>Chapter 1 content.</p>
-    </section>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page 3</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <section>
+    <a href="./index.html">Go to home</a>
+    <h1>HTML tags</h1>
+    <h2>Приклади використання деяких HTML тегів</h2>
+
+    <h3>figure</h3>
+    <article>
+      <figure>
+        <p><img src="./img/raspberry.jpg" alt="raspberry" width="640px"></p>
+        <figcaption>Зображення №1</figcaption>
+      </figure>
+    </article>
+
+    <code>
+        &lt;h2&gt;figure&lt;/h2&gt;<br>
+        &lt;article&gt;<br>
+        &lt;figure&gt;<br>
+        &lt;p&gt;&lt;img src="./img/raspberry.jpg" alt="raspberry" width="640px"&gt;&lt;/p&gt;<br>
+        &lt;figcaption&gt;Зображення №1&lt;/figcaption&gt;<br>
+        &lt;/figure&gt;<br>
+        &lt;/article&gt;<br>
+        </code>
+    <hr>
+
+
+    <h3>Приклад використання тегів <code>ins del</code></h3>
+    <p>Кількість студентів, що навчаються в педагогічному університеті
+      станом на 2019 рік становить <del>4589</del>
+      <ins>5004</ins>. Вибуло <ins>245</ins> студентів.
+    </p>
+    <code>
+        &lt;p&gt;Кількість студентів, що навчаються в педагогічному університеті
+        станом на 2019 рік становить &lt;del&gt;4589&lt;/del&gt;
+        &lt;ins&gt;5004&lt;/ins&gt;. Вибуло &lt;ins&gt;245&lt;/ins&gt; студентів.
+        &lt;/p&gt;
+        </code>
+    <hr>
+
+
+    <h3>Приклад використання тегу <code>kbd</code></h3>
+    <h4>Поєднання клавіш у Windows:</h4>
+    <p><kbd>Ctrl</kbd>+<kbd>Tab ↹</kbd> — перемикання між закладками або вікнами однієї програми;<br>
+      <kbd>Alt</kbd>+<kbd>F4</kbd> — закрити активне вікно;<br>
+      <kbd>Alt</kbd>+<kbd>Space</kbd> (пропуск) — відкриття системного меню вікна. За допомогою нього можна
+      закривати,
+      згортати, розгортати, переміщати і змінювати розмір вікна без допомоги миші;<br>
+      <kbd>Alt</kbd>+ <kbd>Shift</kbd> або <kbd>Ctrl</kbd>+<kbd>Shift</kbd> — перемкнути мову;<br>
+      <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> — відкриття вікна «Диспетчер завдань» або «Безпека
+      Windows»;
+    <p>
+
+    <h3>Приклад використання тегу samp</h3>
+    <p>CSS
+      Каскадні таблиці стилів (англ. Cascading Style Sheets - CSS).<br>
+
+      Мова для запису стильового оформлення веб-сторінок.
+
+      Колір тла, розмір літер та найрізноманітніші візуальні ефекти створюються за допомогою CSS.<br><br>
+      CSS приклад:
+      <br><samp>
+        body {
+        <pre>   background-color: lightblue;  
+}  
+h1 {  
+   color: white;  
+   text-align: center;  
+}  
+p {  
+    font-family: verdana;  
+    font-size: 20px;  
+  }  <br></pre>
+      </samp>
+    </p>
+
+
+    <h3>Приклад використання тегу progress</h3>
+    <p>Ваш файл завантажується</p>
+    <progress max="100" value="25">
+      завантажено на<span id="value">25</span>%
+    </progress>
+
+
+    <h3>Використання тегу <code>meter</code></h3>
+    <p>Заряд акумулятора:</p>
+    <meter value="10" min="0" max="100" low="20" high="80" optimum="90">10 зі 100</meter> <br>
+    <meter value="20" min="0" max="100" low="20" high="80" optimum="90">20 зі 100</meter> <br>
+    <meter value="30" min="0" max="100" low="20" high="80" optimum="90">30 зі 100</meter> <br>
+    <meter value="40" min="0" max="100" low="20" high="80" optimum="90">40 зі 100</meter> <br>
+    <meter value="50" min="0" max="100" low="20" high="80" optimum="90">50 зі 100</meter> <br>
+    <meter value="60" min="0" max="100" low="20" high="80" optimum="90">60 зі 100</meter> <br>
+    <meter value="70" min="0" max="100" low="20" high="80" optimum="90">70 зі 100</meter> <br>
+    <meter value="80" min="0" max="100" low="20" high="80" optimum="90">80 зі 100</meter> <br>
+    <meter value="90" min="0" max="100" low="20" high="80" optimum="90">90 зі 100</meter> <br>
+    <meter value="100" min="0" max="100" low="20" high="80" optimum="90">100 зі 100</meter>
+
+  </section>
+</body>
+
 </html>
